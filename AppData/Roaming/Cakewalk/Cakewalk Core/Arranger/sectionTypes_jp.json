@@ -1,0 +1,11 @@
+{ "sectionTypes" : [
+	{ "id" : 1, "name" : "イントロ",      "defaultLength" : 30720, "abbreviation" : "I", "color" : 4287206040 },
+	{ "id" : 2, "name" : "ヴァース",      "defaultLength" : 30720, "abbreviation" : "V", "color" : 4283995358 },
+	{ "id" : 3, "name" : "ブリッジ",     "defaultLength" : 30720, "abbreviation" : "B", "color" : 4286865371 },
+	{ "id" : 4, "name" : "プリコーラス", "defaultLength" : 30720, "abbreviation" : "P", "color" : 4283278265 },
+	{ "id" : 5, "name" : "コーラス",     "defaultLength" : 30720, "abbreviation" : "C", "color" : 4284066171 },
+	{ "id" : 6, "name" : "ソロ",       "defaultLength" : 30720, "abbreviation" : "S", "color" : 4287519367 },
+	{ "id" : 7, "name" : "ミドルエイト",   "defaultLength" : 30720, "abbreviation" : "M", "color" : 4286865371 },
+	{ "id" : 8, "name" : "エンディング",     "defaultLength" : 30720, "abbreviation" : "E", "color" : 4287206040 }
+	] 
+}

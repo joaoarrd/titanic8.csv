@@ -1,0 +1,36 @@
+### 
+### --- LIBSNDFILE format encoder exclusion list ---
+### 
+### Below is a list of all excluded LIBSNDFILE encoder major formats.
+### To make a specific LIBSNDFILE formats show in SONAR's export dialog, add a leading # preceding the format string below.
+### To exclude only specific sub-formats for a given major format, add any subformat strings to be excluded after the major format name, 
+### separated by a | character. See AIFF as an example.
+### 
+### Note: The names below must match the equivalent LIBSNDFILE's format names
+### 
+
+AIFF (Apple/SGI)|IMA ADPCM
+#AU (Sun/NeXT)
+AVR (Audio Visual Research)
+#CAF (Apple Core Audio File)
+#FLAC (Free Lossless Audio Codec)
+HTK (HMM Tool Kit)
+IFF (Amiga IFF/SVX8/SV16)
+MAT4 (GNU Octave 2.0 / Matlab 4.2)
+MAT5 (GNU Octave 2.1 / Matlab 5.0)
+MPC (Akai MPC 2k)
+#OGG (OGG Container format)
+PAF (Ensoniq PARIS)
+PVF (Portable Voice Format)
+#RAW (header-less)
+#RF64 (RIFF 64)
+#SD2 (Sound Designer II)
+SDS (Midi Sample Dump Standard)
+SF (Berkeley/IRCAM/CARL)
+VOC (Creative Labs)
+W64 (SoundFoundry WAVE 64)|IMA ADPCM|Microsoft ADPCM
+#WAV (Microsoft)
+WAV (NIST Sphere)
+#WAVEX (Microsoft)
+WVE (Psion Series 3)
+XI (FastTracker 2)
